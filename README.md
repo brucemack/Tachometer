@@ -1,7 +1,8 @@
 Tachometer
 ==========
 
-Arduino program for a Go Kart engine tachometer.  Analog input comes from a capacitive pick-up on the spark plug wire (one cylinder engine).
+An Arduino program for a simple Go Kart engine tachometer.  Analog input comes from a capacitive pick-up on the spark plug wire (one cylinder engine). DSP
+is used to convert the analog signal to a tach readout.
 
 Maximum reading is 128 RPS, or 7,680 RPM.
 
