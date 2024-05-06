@@ -5,11 +5,13 @@ Arduino program for a Go Kart engine tachometer.  Analog input comes from a capa
 
 Maximum reading is 128 RPS, or 7,680 RPM.
 
+This has been tested successfully on a Predator 212cc go kart engine. 
+
 Hardware Design
 ===============
 
-The goal is to have a simple, non-invasive connection to the engine.  We take advantage of the fact that a high voltage signal exists on the sparkplug 
-wire which can be sensed using a capacitive lead made form a coil wrapped
+The goal is to have a simple, non-invasive connection to the engine.  We take advantage of the fact that a high voltage signal exists on the spark-plug 
+wire which can be sensed using a capacitive pickup made form a coil wrapped
 around the spark wire.  This signal can be amplified and sent to an 
 analog input on an Arduino (or similar ADC) for signal processing.
 
